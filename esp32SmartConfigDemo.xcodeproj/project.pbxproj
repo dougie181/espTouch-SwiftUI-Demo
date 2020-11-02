@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1946CF30254CFC3D00234245 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946CF2F254CFC3D00234245 /* ShapeView.swift */; };
 		19793981254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19793980254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift */; };
 		19793983254BA3E8009E7F69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19793982254BA3E8009E7F69 /* ContentView.swift */; };
 		19793985254BA3E9009E7F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19793984254BA3E9009E7F69 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1946CF2F254CFC3D00234245 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		1979397D254BA3E8009E7F69 /* esp32SmartConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esp32SmartConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19793980254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esp32SmartConfigDemoApp.swift; sourceTree = "<group>"; };
 		19793982254BA3E8009E7F69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				19E29E88254BDCE9002D84D3 /* ESPTouchManager.swift */,
 				19E29E82254BDB02002D84D3 /* ESPTouch.swift */,
 				19793982254BA3E8009E7F69 /* ContentView.swift */,
-				1946CF2F254CFC3D00234245 /* ShapeView.swift */,
 				19793984254BA3E9009E7F69 /* Assets.xcassets */,
 				19793989254BA3E9009E7F69 /* Info.plist */,
 				19793986254BA3E9009E7F69 /* Preview Content */,
@@ -217,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1946CF30254CFC3D00234245 /* ShapeView.swift in Sources */,
 				19E29E83254BDB02002D84D3 /* ESPTouch.swift in Sources */,
 				19793983254BA3E8009E7F69 /* ContentView.swift in Sources */,
 				19E29E89254BDCE9002D84D3 /* ESPTouchManager.swift in Sources */,

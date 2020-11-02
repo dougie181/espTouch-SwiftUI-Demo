@@ -145,7 +145,6 @@ struct ContentView: View {
                 
                 /// pass-phrase section - at bottom of view
                 VStack (spacing: 0) {
-                    
                     Text("Enter the pass-phrase for the following Wi-Fi network:")
                         .frame(maxWidth: .infinity)
                         .padding()
@@ -239,7 +238,6 @@ struct ContentView: View {
         }
     }
     
-    
     struct AnimatedWiFiSymbol : View {
         @State private var flag: Bool = true
         
@@ -331,19 +329,6 @@ struct ContentView: View {
                         flag.toggle()
                     }
                 }
-            }
-        }
-    }
-    
-    struct WaveView: View {
-        private let pathBounds = UIBezierPath.calculateBounds(paths: [.wave1A, .wave1B, .wave2A, .wave2B])
-        
-        var body: some View {
-            ZStack {
-                ShapeView(bezier: .wave1A, pathBounds: pathBounds)
-                    .foregroundColor(.white)
-                ShapeView(bezier: .wave2A, pathBounds: pathBounds)
-                    .foregroundColor(.gray)
             }
         }
     }
