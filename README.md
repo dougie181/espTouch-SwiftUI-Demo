@@ -16,3 +16,6 @@ To run this project, clone this repo and then run `pod install`.
 Thanks goes to the following:
 * https://github.com/EspressifApp/EsptouchForIOS
 * https://github.com/Jowsing/ESPTouchSwift
+
+## License
+espTouchSwiftUIExample is available under the MIT license. See the LICENSE file for more info.
