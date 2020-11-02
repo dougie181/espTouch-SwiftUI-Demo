@@ -10,8 +10,7 @@ Espressif have an example app on the app store along with the base code availabl
 This version was tested and working against IOS 14.0.
 
 ## Installation
-To run this project, clone this repo and then run `pod install`.
-Open the `esp32SmartConfigDemo.xcworkspace` file in Xcode.
+To run this project, clone this repo and then run `pod install`, then open the `esp32SmartConfigDemo.xcworkspace` file in Xcode.
 
 ## Acknowlegements
 Thanks goes to the following:
