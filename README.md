@@ -10,7 +10,7 @@ Espressif have an example app on the app store along with the base code availabl
 This version was tested and working against IOS 14.0.
 
 ## Installation
-To run this project, clone this repo and then run pod install.
+To run this project, clone this repo and then run `pod install`.
 
 ## Acknowlegements
 Thanks goes to the following:
