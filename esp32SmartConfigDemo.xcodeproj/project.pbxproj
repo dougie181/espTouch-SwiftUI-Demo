@@ -3,23 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1946CF30254CFC3D00234245 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1946CF2F254CFC3D00234245 /* ShapeView.swift */; };
 		19793981254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19793980254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift */; };
 		19793983254BA3E8009E7F69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19793982254BA3E8009E7F69 /* ContentView.swift */; };
 		19793985254BA3E9009E7F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19793984254BA3E9009E7F69 /* Assets.xcassets */; };
 		19793988254BA3E9009E7F69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19793987254BA3E9009E7F69 /* Preview Assets.xcassets */; };
+		19E29E83254BDB02002D84D3 /* ESPTouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E29E82254BDB02002D84D3 /* ESPTouch.swift */; };
+		19E29E89254BDCE9002D84D3 /* ESPTouchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E29E88254BDCE9002D84D3 /* ESPTouchManager.swift */; };
+		812252B6EB9B12ACC6DC97EC /* Pods_esp32SmartConfigDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9221B134FFE8BC9D637246B8 /* Pods_esp32SmartConfigDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1946CF2F254CFC3D00234245 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		1979397D254BA3E8009E7F69 /* esp32SmartConfigDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = esp32SmartConfigDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19793980254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esp32SmartConfigDemoApp.swift; sourceTree = "<group>"; };
 		19793982254BA3E8009E7F69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19793984254BA3E9009E7F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19793987254BA3E9009E7F69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		19793989254BA3E9009E7F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19793998254BAC08009E7F69 /* esp32SmartConfigDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = esp32SmartConfigDemo.entitlements; sourceTree = "<group>"; };
+		19E29E82254BDB02002D84D3 /* ESPTouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPTouch.swift; sourceTree = "<group>"; };
+		19E29E88254BDCE9002D84D3 /* ESPTouchManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPTouchManager.swift; sourceTree = "<group>"; };
+		57CC90C834312BA42203F592 /* Pods-esp32SmartConfigDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-esp32SmartConfigDemo.debug.xcconfig"; path = "Target Support Files/Pods-esp32SmartConfigDemo/Pods-esp32SmartConfigDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7F2DDB83747AD823F602ABF4 /* Pods-esp32SmartConfigDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-esp32SmartConfigDemo.release.xcconfig"; path = "Target Support Files/Pods-esp32SmartConfigDemo/Pods-esp32SmartConfigDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9221B134FFE8BC9D637246B8 /* Pods_esp32SmartConfigDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_esp32SmartConfigDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				812252B6EB9B12ACC6DC97EC /* Pods_esp32SmartConfigDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +50,8 @@
 			children = (
 				1979397F254BA3E8009E7F69 /* esp32SmartConfigDemo */,
 				1979397E254BA3E8009E7F69 /* Products */,
+				EBE055DCA9BE6F83E7813618 /* Pods */,
+				F72AAC44CD8A47B5EA365CE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +66,12 @@
 		1979397F254BA3E8009E7F69 /* esp32SmartConfigDemo */ = {
 			isa = PBXGroup;
 			children = (
+				19793998254BAC08009E7F69 /* esp32SmartConfigDemo.entitlements */,
 				19793980254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift */,
+				19E29E88254BDCE9002D84D3 /* ESPTouchManager.swift */,
+				19E29E82254BDB02002D84D3 /* ESPTouch.swift */,
 				19793982254BA3E8009E7F69 /* ContentView.swift */,
+				1946CF2F254CFC3D00234245 /* ShapeView.swift */,
 				19793984254BA3E9009E7F69 /* Assets.xcassets */,
 				19793989254BA3E9009E7F69 /* Info.plist */,
 				19793986254BA3E9009E7F69 /* Preview Content */,
@@ -69,6 +87,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EBE055DCA9BE6F83E7813618 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57CC90C834312BA42203F592 /* Pods-esp32SmartConfigDemo.debug.xcconfig */,
+				7F2DDB83747AD823F602ABF4 /* Pods-esp32SmartConfigDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F72AAC44CD8A47B5EA365CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9221B134FFE8BC9D637246B8 /* Pods_esp32SmartConfigDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1979398C254BA3E9009E7F69 /* Build configuration list for PBXNativeTarget "esp32SmartConfigDemo" */;
 			buildPhases = (
+				1005269B33F2009D043A7483 /* [CP] Check Pods Manifest.lock */,
 				19793979254BA3E8009E7F69 /* Sources */,
 				1979397A254BA3E8009E7F69 /* Frameworks */,
 				1979397B254BA3E8009E7F69 /* Resources */,
+				FA8993647A266D3627DCC650 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +170,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1005269B33F2009D043A7483 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-esp32SmartConfigDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8993647A266D3627DCC650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-esp32SmartConfigDemo/Pods-esp32SmartConfigDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-esp32SmartConfigDemo/Pods-esp32SmartConfigDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-esp32SmartConfigDemo/Pods-esp32SmartConfigDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		19793979254BA3E8009E7F69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1946CF30254CFC3D00234245 /* ShapeView.swift in Sources */,
+				19E29E83254BDB02002D84D3 /* ESPTouch.swift in Sources */,
 				19793983254BA3E8009E7F69 /* ContentView.swift in Sources */,
+				19E29E89254BDCE9002D84D3 /* ESPTouchManager.swift in Sources */,
 				19793981254BA3E8009E7F69 /* esp32SmartConfigDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +346,11 @@
 		};
 		1979398D254BA3E9009E7F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57CC90C834312BA42203F592 /* Pods-esp32SmartConfigDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = esp32SmartConfigDemo/esp32SmartConfigDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"esp32SmartConfigDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 8LQL44BZN4;
@@ -286,9 +370,11 @@
 		};
 		1979398E254BA3E9009E7F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F2DDB83747AD823F602ABF4 /* Pods-esp32SmartConfigDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = esp32SmartConfigDemo/esp32SmartConfigDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"esp32SmartConfigDemo/Preview Content\"";
 				DEVELOPMENT_TEAM = 8LQL44BZN4;

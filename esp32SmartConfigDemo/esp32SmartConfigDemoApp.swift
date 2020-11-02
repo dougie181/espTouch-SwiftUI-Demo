@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+//import ESPTouchSwift
 
 @main
 struct esp32SmartConfigDemoApp: App {
+    let espTouch = ESPTouchManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: espTouch)
         }
     }
 }
