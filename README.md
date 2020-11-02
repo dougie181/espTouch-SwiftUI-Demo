@@ -11,6 +11,7 @@ This version was tested and working against IOS 14.0.
 
 ## Installation
 To run this project, clone this repo and then run `pod install`.
+Open the `esp32SmartConfigDemo.xcworkspace` file in Xcode.
 
 ## Acknowlegements
 Thanks goes to the following:
