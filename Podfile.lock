@@ -1,0 +1,16 @@
+PODS:
+  - EspressifTouchSDK (1.1.0)
+
+DEPENDENCIES:
+  - EspressifTouchSDK
+
+SPEC REPOS:
+  trunk:
+    - EspressifTouchSDK
+
+SPEC CHECKSUMS:
+  EspressifTouchSDK: ef681a49884e4369d797fd52bb91bca4e6077902
+
+PODFILE CHECKSUM: a596be9fc242ee8703fa233c426fd9d15a76da93
+
+COCOAPODS: 1.10.1

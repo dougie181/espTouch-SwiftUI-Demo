@@ -352,7 +352,7 @@
 				DEVELOPMENT_TEAM = 8LQL44BZN4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = esp32SmartConfigDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,7 +376,7 @@
 				DEVELOPMENT_TEAM = 8LQL44BZN4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = esp32SmartConfigDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
