@@ -58,4 +58,4 @@ Thanks goes to the following:
 * https://github.com/Jowsing/ESPTouchSwift
 
 ## License
-espTouchSwiftUIExample is available under the MIT license. See the LICENSE file for more info.
+espTouchSwiftUIDemo is available under the MIT license. See the LICENSE file for more info.
