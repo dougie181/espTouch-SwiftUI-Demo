@@ -9,7 +9,7 @@ Espressif have an example app on the app store along with the base code availabl
 
 This version was tested and working against IOS 14.0 (as at 10 July 2021).
 
-##Requirements
+**Requirements**
 - Xcode 12.5.1
 - IOS 14.0 or later
 - Xcode
@@ -17,14 +17,14 @@ This version was tested and working against IOS 14.0 (as at 10 July 2021).
 
 
 ## Installation
-#### CocoaPods
+**CocoaPods**
 To install cocoapods, please refer to [https://guides.cocoapods.org/using/getting-started.html](https://guides.cocoapods.org/using/getting-started.html), or 
 
 ```
 % sudo gem install cocoapods
 % pod setup
 ```
-###Building the project
+**Building the project**
 To run this project,
 
 ```
